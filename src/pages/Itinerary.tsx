@@ -63,7 +63,7 @@ interface ItineraryStop {
   duration: number;
 }
 
-const GOOGLE_MAPS_API_KEY = "AIzaSyBh3nzQxJlX2cY0Ad0rXTgc9-5p59EbMoU";
+const GOOGLE_MAPS_API_KEY = "API_Key";
 
 const Itinerary = () => {
   const [monasteries, setMonasteries] = useState<Monastery[]>([]);
