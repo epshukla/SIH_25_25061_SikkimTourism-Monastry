@@ -10,7 +10,7 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone [<YOUR_GIT_URL>](https://github.com/epshukla/SIH_25_25061_SikkimTourism-Monastry)
 
 # Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
