@@ -13,7 +13,7 @@ Follow these steps:
 git clone https://github.com/epshukla/SIH_25_25061_SikkimTourism-Monastry
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd SIH_25_25061_SikkimTourism-Monastry
 
 # Step 3: Install the necessary dependencies.
 npm i
