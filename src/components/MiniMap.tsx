@@ -22,7 +22,7 @@ const MiniMap: React.FC<MiniMapProps> = ({ lat, lng, name }) => {
     if (!window.google) {
       const script = document.createElement("script");
       script.src =
-        "https://maps.googleapis.com/maps/api/js?key=AIzaSyBh3nzQxJlX2cY0Ad0rXTgc9-5p59EbMoU&libraries=places&callback=initMiniMap";
+        "https://maps.googleapis.com/maps/api/js?key=&libraries=places&callback=initMiniMap";
       script.async = true;
       document.body.appendChild(script);
 
