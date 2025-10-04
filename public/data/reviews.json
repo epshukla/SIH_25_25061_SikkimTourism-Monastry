@@ -1,0 +1,38 @@
+[
+  {
+    "id": "rev1",
+    "user": "Sarah Chen",
+    "rating": 5,
+    "review": "Absolutely breathtaking! The Rumtek Monastery is a must-visit. The 360° virtual tour helped me plan my visit perfectly.",
+    "monastery_id": "rumtek",
+    "date": "2025-01-15",
+    "helpful": 24
+  },
+  {
+    "id": "rev2",
+    "user": "Rajesh Kumar",
+    "rating": 5,
+    "review": "Pemayangtse Monastery is a spiritual gem. The seven-tiered sculpture is absolutely magnificent. Highly recommend visiting during Losar.",
+    "monastery_id": "pemayangtse",
+    "date": "2025-02-20",
+    "helpful": 18
+  },
+  {
+    "id": "rev3",
+    "user": "Maya Sherpa",
+    "rating": 4,
+    "review": "Tashiding is truly sacred. The Bhumchu festival was an unforgettable experience. The trek is challenging but worth it!",
+    "monastery_id": "tashiding",
+    "date": "2025-03-10",
+    "helpful": 15
+  },
+  {
+    "id": "rev4",
+    "user": "John Williams",
+    "rating": 5,
+    "review": "The peace and serenity at Rumtek is unmatched. The monks were welcoming and the architecture is stunning.",
+    "monastery_id": "rumtek",
+    "date": "2025-01-28",
+    "helpful": 12
+  }
+]

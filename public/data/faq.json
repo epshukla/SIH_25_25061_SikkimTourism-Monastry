@@ -1,0 +1,50 @@
+[
+  {
+    "id": "faq1",
+    "question": "Do I need a special permit to visit monasteries in Sikkim?",
+    "answer": "Indian nationals need an Inner Line Permit (ILP) to visit protected areas in Sikkim. Foreign nationals require a Protected Area Permit (PAP). These can be obtained online or at designated offices. Most monasteries in Gangtok and nearby areas don't require special permits.",
+    "category": "Permits"
+  },
+  {
+    "id": "faq2",
+    "question": "What is the dress code for visiting monasteries?",
+    "answer": "Dress modestly when visiting monasteries. Cover your shoulders and knees. Remove shoes before entering prayer halls. Avoid wearing revealing clothing. Scarves or shawls are recommended for women.",
+    "category": "Etiquette"
+  },
+  {
+    "id": "faq3",
+    "question": "Is photography allowed inside monasteries?",
+    "answer": "Photography rules vary by monastery. Generally, photography is allowed in courtyards but restricted inside main prayer halls. Always ask permission from monks or officials before taking photos. Never photograph during prayer ceremonies without permission.",
+    "category": "Photography"
+  },
+  {
+    "id": "faq4",
+    "question": "What is the best time to visit monasteries in Sikkim?",
+    "answer": "October to December and March to May are ideal. Weather is pleasant and visibility is excellent. Winter (December-February) can be very cold. Monsoon (June-September) brings heavy rainfall and potential landslides.",
+    "category": "Travel Planning"
+  },
+  {
+    "id": "faq5",
+    "question": "Are there any restrictions during festivals?",
+    "answer": "During major festivals, monasteries can be very crowded. Arrive early for better viewing. Some areas may be restricted to monks only. Maintain silence during ceremonies and follow instructions from monastery officials.",
+    "category": "Festivals"
+  },
+  {
+    "id": "faq6",
+    "question": "How can I reach Rumtek Monastery from Gangtok?",
+    "answer": "Rumtek is 24 km from Gangtok, about 45 minutes by car. Shared taxis are available from MG Marg or you can hire a private taxi. The road is well-maintained and offers beautiful mountain views.",
+    "category": "Transportation"
+  },
+  {
+    "id": "faq7",
+    "question": "Are there accommodation options near monasteries?",
+    "answer": "Yes, many monasteries have guest houses or nearby homestays. Book in advance, especially during festival seasons. Options range from basic monastery accommodations to comfortable homestays with local families.",
+    "category": "Accommodation"
+  },
+  {
+    "id": "faq8",
+    "question": "Can I attend prayer ceremonies?",
+    "answer": "Yes, visitors are generally welcome to observe morning and evening prayers. Arrive a few minutes early, sit quietly at the back, and maintain silence. Remove your shoes and hat. Follow the lead of local devotees.",
+    "category": "Etiquette"
+  }
+]

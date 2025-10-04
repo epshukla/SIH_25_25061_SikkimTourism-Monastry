@@ -1,0 +1,56 @@
+[
+  {
+    "id": "rumtek",
+    "name": "Rumtek Monastery",
+    "location": "East Sikkim, 24km from Gangtok",
+    "lat": 27.325,
+    "lng": 88.612,
+    "description": "Rumtek Monastery, officially known as the Dharma Chakra Centre, is the largest monastery in Sikkim and serves as the seat of the Karmapa. This magnificent structure is a perfect replica of the original Tsurphu Monastery in Tibet.",
+    "360_image_url": "/data/images/tt5.jpg",
+    "thumbnail": "/src/assets/monastery-1.jpg",
+    "photo_gallery": [
+      "/src/assets/monastery-1.jpg",
+      "/src/assets/monastery-2.jpg",
+      "/src/assets/hero-monastery.jpg"
+    ],
+    "tradition": "Kagyu",
+    "founded": "1740 AD",
+    "events": ["losar", "saga-dawa", "dashain", "buddha-jayanti"]
+  },
+  {
+    "id": "pemayangtse",
+    "name": "Pemayangtse Monastery",
+    "location": "West Sikkim, Pelling",
+    "lat": 27.325,
+    "lng": 88.612,
+    "description": "One of the oldest and most important monasteries in Sikkim, Pemayangtse was built in 1705. It houses a remarkable seven-tiered wooden sculpture depicting the celestial palace of Guru Rinpoche.",
+    "360_image_url": "/data/images/tt6.jpg",
+    "thumbnail": "/src/assets/monastery-2.jpg",
+    "photo_gallery": [
+      "/src/assets/monastery-2.jpg",
+      "/src/assets/monastery-1.jpg",
+      "/src/assets/hero-monastery.jpg"
+    ],
+    "tradition": "Nyingma",
+    "founded": "1705 AD",
+    "events": ["losar", "dashain", "buddha-jayanti"]
+  },
+  {
+    "id": "tashiding",
+    "name": "Tashiding Monastery",
+    "location": "West Sikkim, Yuksom",
+    "lat": 27.325,
+    "lng": 88.612,
+    "description": "Built in 1641, Tashiding is considered one of the most sacred monasteries in Sikkim. The monastery is famous for its annual Bhumchu festival where holy water is blessed.",
+    "360_image_url": "/images/tt2.jpg",
+    "thumbnail": "/src/assets/hero-monastery.jpg",
+    "photo_gallery": [
+      "/src/assets/hero-monastery.jpg",
+      "/src/assets/monastery-1.jpg",
+      "/src/assets/monastery-2.jpg"
+    ],
+    "tradition": "Nyingma",
+    "founded": "1641 AD",
+    "events": ["bhumchu", "dashain", "buddha-jayanti"]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "losar",
+    "name": "Losar (Tibetan New Year)",
+    "description": "Celebrated across monasteries in Sikkim, marking the Tibetan New Year with prayers, rituals, and festivities. This is the most important festival in the Tibetan Buddhist calendar, celebrated with traditional dances, prayers, and community gatherings.",
+    "month": "February",
+    "season": "Winter",
+    "type": "Religious Festival",
+    "location": "Across Sikkim",
+    "monasteries": ["rumtek", "pemayangtse"],
+    "duration": "3 days",
+    "significance": "Marks the beginning of the Tibetan lunar year"
+  },
+  {
+    "id": "saga-dawa",
+    "name": "Saga Dawa",
+    "description": "Commemorates Buddha's birth, enlightenment, and parinirvana. Monasteries hold special prayers and ceremonies throughout the month. Devotees engage in meritorious activities and circumambulation of sacred sites.",
+    "month": "May",
+    "season": "Summer",
+    "type": "Religious Festival",
+    "location": "Rumtek Monastery",
+    "monasteries": ["rumtek"],
+    "duration": "Full month",
+    "significance": "Triple blessed month in Buddhist calendar"
+  },
+  {
+    "id": "bhumchu",
+    "name": "Bhumchu Festival",
+    "description": "A sacred ceremony held at Tashiding Monastery where the holy water is unveiled to predict the year's fortune. This ancient ritual involves the opening of a sacred pot filled with holy water from the previous year.",
+    "month": "March",
+    "season": "Spring",
+    "type": "Ritual Festival",
+    "location": "Tashiding Monastery",
+    "monasteries": ["tashiding"],
+    "duration": "1 day",
+    "significance": "Sacred water ceremony for fortune prediction"
+  },
+  {
+    "id": "dashain",
+    "name": "Dashain Festival",
+    "description": "A major Hindu festival celebrated with great enthusiasm across Sikkim. Monasteries also participate in community celebrations, promoting religious harmony.",
+    "month": "October",
+    "season": "Autumn",
+    "type": "Cultural Festival",
+    "location": "Statewide",
+    "monasteries": ["rumtek", "pemayangtse", "tashiding"],
+    "duration": "15 days",
+    "significance": "Victory of good over evil"
+  },
+  {
+    "id": "buddha-jayanti",
+    "name": "Buddha Jayanti",
+    "description": "Celebrates the birth, enlightenment, and death of Lord Buddha. Special prayer ceremonies are held in all monasteries with traditional rituals and community meals.",
+    "month": "May",
+    "season": "Summer",
+    "type": "Religious Festival",
+    "location": "All Monasteries",
+    "monasteries": ["rumtek", "pemayangtse", "tashiding"],
+    "duration": "1 day",
+    "significance": "Birth anniversary of Lord Buddha"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "manuscript-1",
+    "title": "17th Century Manuscript – Rumtek",
+    "image_url": "https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?w=800&h=600&fit=crop",
+    "description": "Digitized Buddhist manuscript from Rumtek Monastery containing ancient prayers and teachings written in Tibetan script. This precious document showcases the rich literary tradition of Tibetan Buddhism.",
+    "date": "1680",
+    "century": "17th Century",
+    "monastery": "Rumtek",
+    "category": "Manuscript",
+    "language": "Tibetan",
+    "pdf_url": "/data/pdfs/rumtek-manuscript.pdf" 
+  },
+  {
+    "id": "mural-1",
+    "title": "Wall Mural – Pemayangtse",
+    "image_url": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+    "description": "High-resolution mural from Pemayangtse Monastery depicting Buddhist deities and symbols. The intricate artwork demonstrates the exceptional skill of traditional Tibetan artists.",
+    "date": "1710",
+    "century": "18th Century",
+    "monastery": "Pemayangtse",
+    "category": "Mural",
+    "language": "Visual Art",
+    "pdf_url": "/data/pdfs/rumtek-manuscript.pdf"
+  },
+  {
+    "id": "thangka-1",
+    "title": "Sacred Thangka Painting – Tashiding",
+    "image_url": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop",
+    "description": "A beautiful thangka painting from Tashiding Monastery depicting Guru Padmasambhava. This sacred art piece is used for meditation and religious instruction.",
+    "date": "1650",
+    "century": "17th Century",
+    "monastery": "Tashiding",
+    "category": "Thangka",
+    "language": "Visual Art"
+  },
+  {
+    "id": "manuscript-2",
+    "title": "Prayer Book Collection – Rumtek",
+    "image_url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=600&fit=crop",
+    "description": "A collection of ancient prayer books containing daily chants and ritual instructions used by monks in their spiritual practice.",
+    "date": "1720",
+    "century": "18th Century",
+    "monastery": "Rumtek",
+    "category": "Manuscript",
+    "language": "Tibetan"
+  },
+  {
+    "id": "artifact-1",
+    "title": "Ceremonial Vessel – Pemayangtse",
+    "image_url": "https://images.unsplash.com/photo-1578662015373-7e51b03b6b8e?w=800&h=600&fit=crop",
+    "description": "An ornate ceremonial vessel used in religious rituals, crafted with traditional Tibetan metalworking techniques and adorned with precious stones.",
+    "date": "1705",
+    "century": "18th Century",
+    "monastery": "Pemayangtse",
+    "category": "Artifact",
+    "language": "Visual Art"
+  },
+  {
+    "id": "statue-1",
+    "title": "Buddha Statue Documentation – Tashiding",
+    "image_url": "https://images.unsplash.com/photo-1544943910-4c1d78b45618?w=800&h=600&fit=crop",
+    "description": "Detailed documentation of an ancient Buddha statue including measurements, materials, and historical significance within the monastery.",
+    "date": "1641",
+    "century": "17th Century",
+    "monastery": "Tashiding",
+    "category": "Documentation",
+    "language": "English/Tibetan"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "id": "post1",
+    "user": "Traveler Mike",
+    "title": "Road Update: Gangtok to Rumtek",
+    "content": "The road to Rumtek is in excellent condition after recent repairs. Takes about 45 minutes from Gangtok. Best time to visit is early morning for fewer crowds.",
+    "location": "Rumtek",
+    "likes": 42,
+    "comments": [
+      {
+        "id": "c1",
+        "user": "Local Guide",
+        "comment": "Thanks for the update! Also, parking is available near the monastery.",
+        "date": "2025-03-15"
+      }
+    ],
+    "date": "2025-03-14",
+    "is_reported": false,
+    "hidden": false,
+    "category": "Travel Tips"
+  },
+  {
+    "id": "post2",
+    "user": "Photography Enthusiast",
+    "title": "Best Photography Spots at Pemayangtse",
+    "content": "The view from the monastery courtyard during sunrise is spectacular! Remember to ask permission before photographing inside the main hall. The golden hour light on the mountains is incredible.",
+    "location": "Pemayangtse",
+    "likes": 38,
+    "comments": [
+      {
+        "id": "c2",
+        "user": "Pro Photographer",
+        "comment": "Great tip! I'd also recommend bringing a wide-angle lens for the architecture shots.",
+        "date": "2025-03-12"
+      }
+    ],
+    "date": "2025-03-11",
+    "is_reported": false,
+    "hidden": false,
+    "category": "Photography"
+  },
+  {
+    "id": "post3",
+    "user": "Cultural Explorer",
+    "title": "Attending Bhumchu Festival - What to Expect",
+    "content": "Just attended the Bhumchu festival at Tashiding. Arrive early (by 7 AM) as it gets crowded. Dress modestly and be respectful during ceremonies. The energy is incredible!",
+    "location": "Tashiding",
+    "likes": 56,
+    "comments": [
+      {
+        "id": "c3",
+        "user": "Festival Goer",
+        "comment": "Thank you! How long does the ceremony usually last?",
+        "date": "2025-03-08"
+      },
+      {
+        "id": "c4",
+        "user": "Cultural Explorer",
+        "comment": "The main ceremony is about 2-3 hours, but celebrations continue throughout the day.",
+        "date": "2025-03-08"
+      }
+    ],
+    "date": "2025-03-07",
+    "is_reported": false,
+    "hidden": false,
+    "category": "Festivals"
+  },
+  {
+    "id": "post4",
+    "user": "Solo Traveler Jane",
+    "title": "Solo Female Traveler Experience",
+    "content": "Traveled solo to all three monasteries. Felt completely safe! Locals are incredibly friendly and helpful. Book homestays in advance during festival seasons.",
+    "location": "General",
+    "likes": 67,
+    "comments": [],
+    "date": "2025-03-05",
+    "is_reported": false,
+    "hidden": false,
+    "category": "Travel Tips"
+  }
+]

@@ -1,0 +1,198 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Monastery360 Design System - Inspired by Sikkim's Sacred Heritage
+All colors are HSL and follow traditional Tibetan-Buddhist aesthetics */
+
+@layer base {
+  :root {
+    /* Base Colors - Inspired by monastery architecture and Himalayan landscape */
+    --background: 45 15% 97%; /* Muted white like monastery walls */
+    --foreground: 0 15% 15%; /* Deep charcoal for text */
+
+    /* Card & Surface Colors */
+    --card: 45 25% 96%;
+    --card-foreground: 0 15% 15%;
+
+    --popover: 45 25% 96%;
+    --popover-foreground: 0 15% 15%;
+
+    /* Primary - Deep Maroon (Traditional Monastery Robes) */
+    --primary: 350 60% 25%; /* Deep maroon */
+    --primary-foreground: 45 15% 97%;
+    --primary-glow: 350 70% 35%;
+
+    /* Secondary - Saffron (Sacred Color) */
+    --secondary: 40 85% 55%; /* Saffron */
+    --secondary-foreground: 0 15% 15%;
+
+    /* Muted - Soft monastery stone */
+    --muted: 35 20% 92%;
+    --muted-foreground: 0 10% 45%;
+
+    /* Accent - Himalayan Blue */
+    --accent: 200 85% 65%; /* Himalayan blue sky */
+    --accent-foreground: 0 15% 15%;
+
+    /* Gold - Sacred ornaments and decorations */
+    --gold: 45 100% 50%;
+    --gold-muted: 45 60% 70%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 45 15% 97%;
+
+    --border: 35 25% 88%;
+    --input: 35 25% 88%;
+    --ring: 350 60% 25%;
+
+    /* Gradients - Sacred and mystical effects */
+    --gradient-monastery: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-sunrise: linear-gradient(90deg, hsl(var(--secondary)), hsl(var(--gold)));
+    --gradient-himalayan: linear-gradient(180deg, hsl(var(--accent)), hsl(var(--background)));
+    --gradient-sacred: linear-gradient(45deg, hsl(var(--primary)), hsl(var(--secondary)));
+
+    /* Shadows and Effects */
+    --shadow-monastery: 0 10px 30px -10px hsl(var(--primary) / 0.3);
+    --shadow-gold: 0 5px 20px -5px hsl(var(--gold) / 0.4);
+    --shadow-soft: 0 4px 20px -4px hsl(var(--foreground) / 0.1);
+
+    /* Animation and transitions */
+    --transition-monastery: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-sacred: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    /* Dark mode inspired by monastery evenings and candlelight */
+    --background: 350 20% 8%;
+    --foreground: 45 15% 95%;
+
+    --card: 350 25% 10%;
+    --card-foreground: 45 15% 95%;
+
+    --popover: 350 25% 10%;
+    --popover-foreground: 45 15% 95%;
+
+    --primary: 350 70% 55%;
+    --primary-foreground: 45 15% 95%;
+    --primary-glow: 350 80% 65%;
+
+    --secondary: 40 75% 65%;
+    --secondary-foreground: 350 20% 8%;
+
+    --muted: 350 15% 15%;
+    --muted-foreground: 45 10% 70%;
+
+    --accent: 200 70% 70%;
+    --accent-foreground: 350 20% 8%;
+
+    --gold: 45 90% 60%;
+    --gold-muted: 45 50% 80%;
+
+    --border: 350 20% 20%;
+    --input: 350 20% 20%;
+    --ring: 350 70% 55%;
+  }
+}
+
+/* Custom monastery-inspired styles */
+@layer components {
+  .monastery-border {
+    @apply relative;
+  }
+  
+  .monastery-border::before {
+    content: '';
+    @apply absolute inset-0 rounded-lg;
+    background: linear-gradient(45deg, 
+      hsl(var(--primary)) 0%, 
+      hsl(var(--secondary)) 25%, 
+      hsl(var(--gold)) 50%, 
+      hsl(var(--secondary)) 75%, 
+      hsl(var(--primary)) 100%);
+    padding: 2px;
+    z-index: -1;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: xor;
+  }
+
+  .prayer-flag-animation {
+    animation: prayer-flag 6s ease-in-out infinite;
+  }
+
+  .mandala-spin {
+    animation: mandala-spin 20s linear infinite;
+  }
+
+  .monastery-glow {
+    box-shadow: var(--shadow-monastery);
+  }
+
+  .gold-accent {
+    background: var(--gradient-sunrise);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@layer utilities {
+  .bg-gradient-monastery {
+    background: var(--gradient-monastery);
+  }
+  
+  .bg-gradient-sunrise {
+    background: var(--gradient-sunrise);
+  }
+  
+  .bg-gradient-himalayan {
+    background: var(--gradient-himalayan);
+  }
+  
+  .bg-gradient-sacred {
+    background: var(--gradient-sacred);
+  }
+  
+  .text-gradient-gold {
+    background: var(--gradient-sunrise);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/* Sacred animations */
+@keyframes prayer-flag {
+  0%, 100% { transform: translateX(0) rotate(0deg); }
+  25% { transform: translateX(2px) rotate(1deg); }
+  50% { transform: translateX(0) rotate(0deg); }
+  75% { transform: translateX(-2px) rotate(-1deg); }
+}
+
+@keyframes mandala-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    letter-spacing: -0.025em;
+  }
+  
+  .monastery-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+}

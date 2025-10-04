@@ -1,0 +1,23 @@
+[
+  {
+    "id": "fb1",
+    "name": "Amit Sharma",
+    "message": "Love the 360° virtual tours! Could you add more monasteries from North Sikkim?",
+    "category": "Feature Request",
+    "date": "2025-03-10"
+  },
+  {
+    "id": "fb2",
+    "name": "Lisa Anderson",
+    "message": "The itinerary planner is fantastic! It helped me plan my entire trip efficiently.",
+    "category": "Appreciation",
+    "date": "2025-03-08"
+  },
+  {
+    "id": "fb3",
+    "name": "Prakash Rai",
+    "message": "Would be great to have audio guides in multiple languages for the virtual tours.",
+    "category": "Suggestion",
+    "date": "2025-03-05"
+  }
+]

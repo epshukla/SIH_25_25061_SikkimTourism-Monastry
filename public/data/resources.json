@@ -1,0 +1,44 @@
+[
+  {
+    "id": "res1",
+    "title": "Complete Guide to Visiting Sikkim Monasteries",
+    "description": "A comprehensive guide covering permits, etiquette, best times to visit, and cultural insights.",
+    "category": "Travel Guide",
+    "url": "#"
+  },
+  {
+    "id": "res2",
+    "title": "How to Obtain Inner Line Permit (ILP)",
+    "description": "Step-by-step guide to getting your ILP for Sikkim, including online and offline procedures.",
+    "category": "Permits",
+    "url": "#"
+  },
+  {
+    "id": "res3",
+    "title": "Understanding Buddhist Monastery Etiquette",
+    "description": "Learn the dos and don'ts when visiting Buddhist sacred sites in Sikkim.",
+    "category": "Culture",
+    "url": "#"
+  },
+  {
+    "id": "res4",
+    "title": "Festival Calendar and Celebration Details",
+    "description": "Detailed information about major Buddhist festivals celebrated in Sikkim monasteries.",
+    "category": "Festivals",
+    "url": "#"
+  },
+  {
+    "id": "res5",
+    "title": "Photography Guidelines for Sacred Sites",
+    "description": "Respectful photography practices and technical tips for capturing monastery beauty.",
+    "category": "Photography",
+    "url": "#"
+  },
+  {
+    "id": "res6",
+    "title": "Transportation Options in Sikkim",
+    "description": "Complete guide to getting around Sikkim, including taxis, shared cabs, and public transport.",
+    "category": "Transportation",
+    "url": "#"
+  }
+]
